@@ -8,3 +8,8 @@ class Something:
     def do_something(value: bool = False) -> bool:
         """Return true, always."""
         return value or True
+
+    @staticmethod
+    def do_something_else(value: bool = False) -> bool:
+        """Return true, always."""
+        return value or True

@@ -9,3 +9,9 @@ from package.something import Something
 def test_something(boolean: bool) -> None:
     """Test something here."""
     assert Something.do_something(boolean) is True
+
+
+@given(strategies.booleans())
+def test_something_else(boolean: bool) -> None:
+    """Test something here."""
+    assert Something.do_something_else(boolean) is True
