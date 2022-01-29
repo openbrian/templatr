@@ -143,7 +143,7 @@ repos:
 #   hooks:
 #   - id: tox-ini-fmt
 
-# On push to the remote, run the unit tests.
+# Run the unit tests and make sure we have 100% coverage.
 - repo: local
   hooks:
   - id: pytest
@@ -154,4 +154,3 @@ repos:
     verbose: true
     always_run: true
     pass_filenames: false
-    stages: [push]
