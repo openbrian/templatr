@@ -1,1 +1,1 @@
-UPSTREAM_CHANGELOG.md
+<!--next-version-placeholder-->
