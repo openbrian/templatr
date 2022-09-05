@@ -57,7 +57,7 @@ setuptools.setup(
     include_package_data=True,
     install_requires=[],
     extras_require={
-        "test": ["hypothesis==6.50.1", "pytest==6.2.5", "pytest-cov==3.0.0"],
+        "test": ["hypothesis==6.50.1", "pytest==7.1.3", "pytest-cov==3.0.0"],
         "dev": [
             "bandit==1.7.2",
             "flake8==4.0.1",
