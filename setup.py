@@ -68,7 +68,7 @@ setuptools.setup(
             "mypy==0.931",
             "pep8-naming==0.12.1",
             "pre-commit==2.20.0",
-            "pylint==2.12.2",
+            "pylint==2.15.3",
             "types-setuptools==62.6.1",
         ],
         "docs": ["sphinx==4.4.0"],
