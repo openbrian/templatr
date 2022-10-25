@@ -61,7 +61,7 @@ setuptools.setup(
         "dev": [
             "bandit==1.7.4",
             "flake8==4.0.1",
-            "flake8-builtins==1.5.3",
+            "flake8-builtins==2.0.0",
             "flake8-docstrings==1.6.0",
             "flake8-rst-docstrings==0.2.7",
             "hypothesis==6.50.1",
