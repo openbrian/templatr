@@ -71,7 +71,7 @@ setuptools.setup(
             "pylint==2.12.2",
             "types-setuptools==62.6.1",
         ],
-        "docs": ["sphinx==5.3.0"],
+        "docs": ["sphinx==6.1.2"],
     },
     entry_points={"console_scripts": ["something = package.__main__:main"]},
     options={},
