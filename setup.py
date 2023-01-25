@@ -67,7 +67,7 @@ setuptools.setup(
             "hypothesis==6.50.1",
             "mypy==0.931",
             "pep8-naming==0.13.2",
-            "pre-commit==2.20.0",
+            "pre-commit==3.0.0",
             "pylint==2.12.2",
             "types-setuptools==62.6.1",
         ],
